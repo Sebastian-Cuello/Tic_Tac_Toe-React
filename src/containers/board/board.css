@@ -1,0 +1,32 @@
+.board-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  max-height: 600px;
+  background-color: aliceblue;
+}
+
+.board-container__row {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1;
+}
+
+.board-container__points {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.board-container__points_score{
+  font-size: 96px;
+}
+
+#board-container__points_winnerText{
+  margin-top: 50px;
+  font-size: 48px;
+}
